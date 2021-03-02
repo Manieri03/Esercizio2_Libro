@@ -12,7 +12,7 @@ namespace LibreriaLibro
 
         public string ToString1()
         {
-            string testo = "Stampo il libro...";
+            string testo = "Stampo il libro..."; 
             foreach (Pagina p in Pagine)
                 testo += p.ToString();
             
